@@ -1,0 +1,23 @@
+{
+  "name": "app1",
+  "version": "0.0.1",
+  "description": "express app with ejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "express": "*",
+    "ejs" : "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PiotrekFilipecki/nodeapp.git"
+  },
+  "author": "osz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PiotrekFilipecki/nodeapp/issues"
+  },
+  "homepage": "https://github.com/PiotrekFilipecki/nodeapp#readme"
+}
