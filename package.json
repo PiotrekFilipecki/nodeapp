@@ -1,23 +1,20 @@
 {
-  "name": "app1",
+  "name": "nodeapp",
   "version": "0.0.1",
-  "description": "express app with ejs",
+  "description": "A sample node app using Express and Jade",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies":{
+  "dependencies": {
     "express": "*",
-    "ejs" : "*"
+    "jade": "*",
+    "stylus": "*",
+    "nib": "*"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PiotrekFilipecki/nodeapp.git"
-  },
-  "author": "osz",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/PiotrekFilipecki/nodeapp/issues"
-  },
-  "homepage": "https://github.com/PiotrekFilipecki/nodeapp#readme"
+  "author": "Brad Traversy",
+  "license": "GNU",
+  "devDependencies": {
+    "source-map": "^0.5.3"
+  }
 }
